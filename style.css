@@ -1,0 +1,67 @@
+.container{
+    width: 600px;
+    float: right;
+}
+
+.tabs{
+    border: 1px solid gray;
+    background-color: #f1f1f1;
+    overflow:hidden;
+  }
+  .tabs button{
+    background-color:inherit;
+    float:left;
+    border:none;
+    outline:none;
+    padding: 14px 20px;
+    font-size:17px;
+    cursor:pointer;
+    transition:03s;
+  }
+  .tabs button:hover {
+      background-color: #ddd;
+  }
+  .tab button.active {
+      background-color: #ccc;
+  }
+  
+  .tabcontent {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+.default1{
+    visibility: visible;
+}
+  .hidden{
+      display:none;
+  }
+
+  .divOne{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(43, 189, 226);
+    transition: height 4s;
+
+
+}
+
+.divTwo{
+    height: 0px;
+    width: 400px;
+    background-color: rgb(43, 189, 226);
+    transition: height 4s;
+}
+h1{
+   border:0px;
+   margin: 0px;
+   text-align: center;
+   padding: 10%;
+   color: #fff;
+}
+#id{
+    width: 20px;
+}
+.projectOne{
+    float: left;
+}
